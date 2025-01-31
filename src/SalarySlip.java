@@ -48,10 +48,10 @@ public class SalarySlip {
             gradeProce=1700;
         }
        else if(grade.equals("B")){
-            gradeProce=1700;
+            gradeProce=1500;
         }
         else if(grade.equals("C")){
-            gradeProce=1700;
+            gradeProce=1300;
         }
         grossSalary = basicSalary + HRA + DA+ gradeProce - Pf;
 
